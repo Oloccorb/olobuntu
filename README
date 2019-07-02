@@ -1,0 +1,110 @@
+Welcome to Olobuntu!
+
+Olobuntu was designed to make the transition from Windows user to Linux user as painless as possible.
+
+This is a test version. It is not meant to be used by an inexperienced Linux user for daily use. Wait for the Final Release.
+
+First things first, when booting a Live USB/DVD it will ask for a user login. It is olobuntu, no password, enter it and click login twice.
+
+Olobuntu was inspired by Zorin, hence why I made the default background the same.
+Olobuntu is based entirely on Xubuntu 18.04 LTS. I deserve no credit for the programming of the system.
+
+The only "programming" I did was to modify CSS to change the WhiskerMenu theme. Many default programs are included, especially various GUI tools to allow the new user to make changes and troubleshoot without needing to use terminals commands very often, if it all.
+
+The desktop theme is from the official Pop!OS site and the Icons are from the Numix Project.
+
+3rd party drivers to allow the playing of videos and DVD immediately after install are included.
+As are MS fonts available for LibreOffice or any Office Suite you add later.
+
+By installing Olobuntu you agree to abide by the terms of all 3rd party EULA. 
+
+Broadcom and Nvidia drivers were not included in the Alpha versions. They will be included in the Beta and the Final Release.
+
+Either can be installed via the Software Updater > Settings > Additional Drivers.
+
+You will need an Internet connection to do so.
+
+The standard Canonical repositories are used as well as the ones for Pop!OS and the Numix Project.
+
+The ISO and therefore the amount of disk space required for install is large due to so much being included.
+Once it is installed it is fairly light weight using about 256MB RAM.
+
+Minimum Requirements:
+Pentium CPU
+512MB RAM
+15GB Hard Drive storage.
+
+Recommended:
+Duo Core CPU or higher
+1GB or more RAM
+20GB Hard Drive storage, or more.
+
+Any USB image writer can be used to create a Live USB. Etcher is included for convenience. 
+Any DVD Image burner can be used to create a Live DVD
+
+A USB or DVD with 4GB or more capacity is required.
+
+Included in the zip file:
+balena-etcher-electron-1.5.51-linux-ia32.zip - Zip file containing Appimage of 32 Bit Etcher. Will run on any Linux, just double-Click  
+balenaEtcher-Portable-1.5.51.exe - Will run on any Windows. No need to install, just double-Click    
+Olobuntu_32_alpha_4.0.iso.md5
+Olobuntu_32_alpha_4.0.iso.sha256
+Olobuntu_32_alpha_4.0.iso
+README - this file
+
+The 32 bit version works best if installed on a BIOS/Legacy/CSM system and a drive with msdos partition table.
+Which is the standard on most 32 bit systems. 
+
+It can be installed on UEFI but a grub will not be installed. If installed on a system with a pre-existing grub, the OS that owns the grub can update the grub and Olobuntu will recognized and will boot from that grub. However, any update to programs that require gnerating a new initramfs will have problems on reboot. That includes items like a new kernel, Broadcom and Nvidia drivers. It is suggested that the UEFI method only be used for evaluation purposes.
+
+Olobuntu has not been tested on any virtual systems. Any feedback on the results of installing it in that manner would be greatly appreciated.
+
+Olobuntu has not been tested on AMD CPU based systems. Again, any feedback on the results of installing it on those systems would be greatly appreciated.
+
+Olobuntu has been tested on laptops and desktops with Intel Pentium, Celeron D, Pentium Duo Core, and an i5, CPU.
+Testing has been done on systems with 1GB to 4GB RAM. Also, on systems with Broadcom WiFi and Nvidia graphics.
+
+The 32 Bit version works on 64 Bit CPUs.
+
+The 32 bit Beta version will be realeased soon.
+
+The 64 Bit version is still in development as of the writing of this README. 
+
+Installation:
+Creat a Live USB or DVD
+Boot your system from it.
+Pick Start Olobuntu_32
+You will see an Xubuntu splash screen.
+On the login, enter olobuntu
+Click login twice
+
+Once Olobuntu is up, you can connect to the Internet if desired. It is not nessecary to be connected to install.
+
+The Plank will be at its default position, the Bottom. you can correct it using Plank Preferences from the menu after installation. 
+
+use gparted from the menu if you need to prepare your hard drive for installation.
+double-Click Olobuntu_32 18.04.
+The install process is the same as any Ubuntu or its derivatives.
+
+Be sure to check "Install Third Party"
+Only "erase all" and "something else" install options have been tested so far. Use "install along side" at your own risk.
+
+The "something else" option has been used to manually install Olobuntu along side other OS sucessfully.
+
+I hope you enjoy using Olobuntu as much as I enjoyed creating it.
+
+Please send any feedback or donations to oloccorb@yahoo.com
+All dontated funds will be used to purchase additional hardware to develop and test Olobuntu.
+My YouTube Channel is TheOloccorb
+
+Thank You!!
+Steven Broccolo
+ 
+
+
+
+ 
+
+
+
+
